@@ -9,6 +9,7 @@ public class Book
     public byte[]? CoverImage { get; set; }
     public DateOnly PublicationDate { get; set; }
     public decimal Price { get; set; }
+    public int PageAmount { get; set; }
     public Genre Genre { get; set; }
     public Author Author { get; set; }
     public int AuthorId { get; set; }
