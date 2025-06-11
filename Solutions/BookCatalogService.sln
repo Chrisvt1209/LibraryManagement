@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalog.Repository", "..\Services\BookCatalogService\BookCatalog.Repository\BookCatalog.Repository.csproj", "{3AAE8AC3-A337-4CD9-A79D-D0152944F636}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalog.Service", "..\Services\BookCatalogService\BookCatalog.Service\BookCatalog.Service.csproj", "{DB941FFE-5AA0-48B6-89BB-A4E14EEABD7B}"
 EndProject
 Global
@@ -18,10 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AAE8AC3-A337-4CD9-A79D-D0152944F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AAE8AC3-A337-4CD9-A79D-D0152944F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AAE8AC3-A337-4CD9-A79D-D0152944F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AAE8AC3-A337-4CD9-A79D-D0152944F636}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB941FFE-5AA0-48B6-89BB-A4E14EEABD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB941FFE-5AA0-48B6-89BB-A4E14EEABD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB941FFE-5AA0-48B6-89BB-A4E14EEABD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU

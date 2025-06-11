@@ -1,14 +1,16 @@
 using BookCatalog.Service.Services;
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddGrpc();
+builder.Services.AddHttpClient<OpenLibraryClient>();
 
-var app = builder.Build();
+builder.Services.AddControllers();
 
-// Configure the HTTP request pipeline.
-app.MapGrpcService<GreeterService>();
-app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+WebApplication app = builder.Build();
 
-app.Run();
+app.MapControllers();
+
+await app.RunAsync();
+
+public partial class Program { } // for integration tests
